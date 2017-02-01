@@ -1,24 +1,12 @@
-# README
+## Setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ 1. First, **fork** this repo if you already haven't.
 
-Things you may want to cover:
+    In your address bar, you should see `github.com/YOUR_USERNAME/sequences_golden_seven`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 1. Clone the code to your development machine.
+ 1. Open a command line window and `cd` into the root folder.
+ 1. Open the whole folder in your text editor.
+ 1. `bin/setup`
+ 1. `rails server` (or `rails s`) for short.
+ 1. Open a second command line window and `cd` into the root folder again, in case you need to run additional commands (like `rails console`, or `rails c` for short.)
