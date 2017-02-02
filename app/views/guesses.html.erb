@@ -1,0 +1,20 @@
+<ul>
+  <% @list_of_guesses.each do |guess| %>
+  <li>
+    <%= guess.first_number %>,
+    <%= guess.second_number %>,
+    <%= guess.third_number %>
+  </li>
+
+  <a href='#'>
+    see details
+  </a>
+
+  <a href='#'>
+    edit
+  </a>
+
+
+    <% end %>
+
+  </ul>
